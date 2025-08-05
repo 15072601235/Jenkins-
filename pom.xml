@@ -23,7 +23,8 @@
         <maven.compiler.target>20</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
+         
+<build>
     <plugin>
         <artifactId>maven-surefire-plugin</artifactId>
         <configuration>
@@ -31,6 +32,7 @@
             <include>**/*.java</include> <!-- 包含所有Java文件作为测试 -->
          </includes>
         </configuration>
-</plugin>
+    </plugin>
+</build>
 
 </project>

@@ -4,7 +4,7 @@ import java.sql.*;
 import org.junit.Test;  // 导入Test注解
 import static org.junit.Assert.*;  // 导入断言方法
 
-public class Test {
+public class MyTest {
     @Test
     static void main(String[] args) throws ClassNotFoundException, SQLException { // throws异常是下面forName上alt+enter后生成的
         // 加载driver驱动：

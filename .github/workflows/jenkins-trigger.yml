@@ -1,0 +1,10 @@
+name: Trigger Jenkins
+on: [push]
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          curl -X POST \
+            -H "Authorization: Bearer ${{ secrets.JENKINS_TOKEN }}" \
+            "http://192.168.1.107:8081/job/流水线测试2/build?token=TRIGGER_TOKEN"

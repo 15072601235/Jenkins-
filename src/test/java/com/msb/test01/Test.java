@@ -2,7 +2,7 @@ package com.msb.test01;
 
 import java.sql.*;
 
-public class MyTest {
+public class Test {
     @Test
     public static void main(String[] args) throws ClassNotFoundException, SQLException { // throws异常是下面forName上alt+enter后生成的
         // 加载driver驱动：

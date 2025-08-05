@@ -3,6 +3,7 @@ package com.msb.test01;
 import java.sql.*;
 
 public class Test {
+    @Test
     public static void main(String[] args) throws ClassNotFoundException, SQLException { // throws异常是下面forName上alt+enter后生成的
         // 加载driver驱动：
         Class.forName("com.mysql.cj.jdbc.Driver");
@@ -22,5 +23,6 @@ public class Test {
         // 关闭资源
         sta.close();
         conn.close();
+        assertTrue(true);  // 需要导入 org.junit.Assert.*
     }
 }

@@ -6,7 +6,7 @@ import static org.junit.Assert.*;  // 导入断言方法
 
 public class Test {
     @Test
-    public static void main(String[] args) throws ClassNotFoundException, SQLException { // throws异常是下面forName上alt+enter后生成的
+    static void main(String[] args) throws ClassNotFoundException, SQLException { // throws异常是下面forName上alt+enter后生成的
         // 加载driver驱动：
         Class.forName("com.mysql.cj.jdbc.Driver");
         // 获取连接

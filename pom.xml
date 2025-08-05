@@ -24,4 +24,13 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <plugin>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <configuration>
+         <includes>
+            <include>**/*.java</include> <!-- 包含所有Java文件作为测试 -->
+         </includes>
+        </configuration>
+</plugin>
+
 </project>

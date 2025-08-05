@@ -1,6 +1,5 @@
 package com.msb.test01;
 
-import java.sql.*;
 import org.junit.Test;  // 导入Test注解
 import static org.junit.Assert.*;  // 导入断言方法
 

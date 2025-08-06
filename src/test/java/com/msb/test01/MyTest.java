@@ -7,5 +7,6 @@ public class MyTest {
     @Test
     public void testExample() {
         assertTrue(true);  // 测试方法
+        assertTrue(true);  // 测试方法
     }
 }
